@@ -1,0 +1,26 @@
+# Навчальні матеріали: зміст не потрапляє в Git (README каталогів зберігаються)
+material/original/*
+!material/original/README.md
+material/annotated/*
+!material/annotated/README.md
+material/text/*
+!material/text/README.md
+material/page-images/*
+!material/page-images/README.md
+
+# Особисті дані учня (замість них — .template файли)
+progress/fortschritt.md
+vocab/vokabeln.tsv
+
+# Runtime-артефакти OpenCode (не належать до вихідного проєкту)
+.opencode/node_modules/
+.opencode/package.json
+.opencode/package-lock.json
+.opencode/.gitignore
+
+# Рендер сторінок, зображення та тимчасові результати
+*.png
+*.jpg
+*.jpeg
+*.tmp
+*.log
